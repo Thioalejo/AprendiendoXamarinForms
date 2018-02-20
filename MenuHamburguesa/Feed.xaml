@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:MenuHamburguesa" x:Class="MenuHamburguesa.Feed" BarBackgroundColor="Green">
+
+    <ContentPage Title="Principal" BackgroundColor="Gray" >
+        <ContentPage.Content>
+
+        <StackLayout Margin="10">
+            <Label Text="Record" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                FontSize="30"/>
+                
+            <Label Text="0" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                FontSize="40"/>
+
+
+            <StackLayout BackgroundColor="White">
+                <Grid BackgroundColor="White" Margin="10">
+                    <Label Text="ENTRENAMIENTO" 
+                            VerticalOptions="Start" 
+                            HorizontalOptions="Start" 
+                            FontSize="10"/>
+
+                        <Grid HorizontalOptions="End">
+                            <Label Text="0"
+                                HorizontalOptions="End"
+                                Margin="0,0,30,0"
+                                    FontSize="20"
+                                    />
+
+                            <Label Text="/10" 
+                                    FontSize="20"
+                                    HorizontalOptions="End"
+                                    />
+                        </Grid>
+
+
+                    
+                    <Slider Margin="20"
+                            Minimum="0" 
+                            Maximum="10"
+                            IsEnabled="false"
+                            Value="0"></Slider>
+                </Grid>
+
+            </StackLayout>
+        </StackLayout>
+                
+
+
+        </ContentPage.Content>
+
+    </ContentPage>
+
+
+    <ContentPage Title="Segunda">
+        <ContentPage.Content>
+
+        <StackLayout>
+            <Label Text="Welcome to Xamarin Forms!" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+        </StackLayout>
+                
+
+
+        </ContentPage.Content>
+
+    </ContentPage>
+    
+</TabbedPage>

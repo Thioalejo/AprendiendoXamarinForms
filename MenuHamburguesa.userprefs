@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{D3B5971A-A381-4E8C-A6C8-8A87CCB120D8}|Default">
+  <MonoDevelop.Ide.ItemProperties.MenuHamburguesa.Droid PreferredExecutionTarget="Android.G7T7N16C30006880" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MenuHamburguesa/Feed.xaml">
+    <Files>
+      <File FileName="MenuHamburguesa/HamburgerMenu.xaml.cs" Line="81" Column="14" />
+      <File FileName="MenuHamburguesa/Feed.xaml" Line="63" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MenuHamburguesa.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E20D9247-70D8-4B4B-B32F-1570F7B1BBED">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.MenuHamburguesa.iOS>
+</Properties>
