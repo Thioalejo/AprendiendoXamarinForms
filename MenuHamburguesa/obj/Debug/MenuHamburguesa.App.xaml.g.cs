@@ -11,7 +11,8 @@
 namespace MenuHamburguesa {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Johnny/Projects/MenuHamburguesa/MenuHamburguesa/App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/MenuHamburguesa/Ap" +
+        "p.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

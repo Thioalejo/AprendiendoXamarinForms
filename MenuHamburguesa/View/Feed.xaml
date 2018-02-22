@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:MenuHamburguesa" x:Class="MenuHamburguesa.Feed" BarBackgroundColor="Green">
+
+    <ContentPage Title="Principal" BackgroundColor="Gray" >
+        <ContentPage.Content>
+
+        <StackLayout Margin="10">
+            <Label Text="Record" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                FontSize="30"/>
+                
+            <Label Text="0" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                FontSize="40"/>
+
+
+            <StackLayout BackgroundColor="White">
+                <Grid BackgroundColor="White" Margin="10">
+                    <Label Text="ENTRENAMIENTO" 
+                            VerticalOptions="Start" 
+                            HorizontalOptions="Start" 
+                            FontSize="10"/>
+
+                        <Grid HorizontalOptions="End">
+                            <Label Text="0"
+                                HorizontalOptions="End"
+                                Margin="0,0,30,0"
+                                    FontSize="20"
+                                    />
+
+                            <Label Text="/10" 
+                                    FontSize="20"
+                                    HorizontalOptions="End"
+                                    />
+                        </Grid>
+
+
+                    
+                    <Slider Margin="20"
+                            Minimum="0" 
+                            Maximum="10"
+                            IsEnabled="false"
+                            Value="0"></Slider>
+                </Grid>
+
+            </StackLayout>
+        </StackLayout>
+                
+
+
+        </ContentPage.Content>
+
+    </ContentPage>
+
+
+    <ContentPage Title="Segunda">
+        <ContentPage.Content>
+
+        <StackLayout>
+                
+                 
+            <ListView x:Name="MyListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                       <ViewCell>
+                        <StackLayout BackgroundColor="Teal" Orientation="Vertical">
+                                    <StackLayout Orientation="Horizontal">
+                                        <!--<controls:CircleImage Source="http://sentir-terror.com/img/2014/02/13997125-minion_2.jpg" Aspect="Fill" WidthRequest="250" HeightRequest="250" TranslationX="25" TranslationY="50" />  -->  
+                           
+                                        <Image Source="http://sentir-terror.com/img/2014/02/13997125-minion_2.jpg" Margin="4" />
+                                        <Label Text="{Binding Id}" TextColor="Black"/>
+                                        <Label Text="{Binding Title}" TextColor="Black"/>
+                                    </StackLayout>
+                                </StackLayout>
+                       </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+           </ListView>
+        </StackLayout>
+                
+
+
+        </ContentPage.Content>
+
+    </ContentPage>
+    
+</TabbedPage>

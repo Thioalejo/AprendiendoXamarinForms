@@ -1,9 +1,9 @@
 # Version: 11.6.1.4 (xcode9.2: db807ec9)
 # [first argument, ignore] # --cache
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.4/lib/mtouch/mtouch.exe \
-	/Users/Johnny/Projects/MenuHamburguesa/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \
-	/Users/Johnny/Projects/MenuHamburguesa/iOS/bin/iPhoneSimulator/Debug/MenuHamburguesa.iOS.app \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/iOS/bin/iPhoneSimulator/Debug/MenuHamburguesa.iOS.app \
 	--executable \
 	MenuHamburguesa.iOS \
 	--debug \
@@ -18,10 +18,10 @@
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
 	--symbollist \
-	/Users/Johnny/Projects/MenuHamburguesa/iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/MenuHamburguesa/bin/Debug/MenuHamburguesa.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/MenuHamburguesa/bin/Debug/MenuHamburguesa.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -31,13 +31,13 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
@@ -315,83 +315,85 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/MenuHamburguesa/bin/Debug/MenuHamburguesa.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/MenuHamburguesa/bin/Debug/MenuHamburguesa.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/MenuHamburguesa/bin/Debug/Newtonsoft.Json.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/Johnny/Projects/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
 	--target-framework \
 	'Xamarin.iOS,v1.0' \
-	/Users/Johnny/Projects/MenuHamburguesa/iOS/bin/iPhoneSimulator/Debug/MenuHamburguesa.iOS.exe \
+	/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/iOS/bin/iPhoneSimulator/Debug/MenuHamburguesa.iOS.exe \
