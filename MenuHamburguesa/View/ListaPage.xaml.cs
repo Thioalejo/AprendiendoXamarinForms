@@ -17,7 +17,7 @@ namespace MenuHamburguesa.View
         HttpClient client = new HttpClient();
         private const string URL = "http://dl.dropboxusercontent.com/s/sjhj5zuxfu87vz5/Archivo.json?dl=0";
        
-        private ObservableCollection<RootObject> _post;
+        private ObservableCollection<Personaje> _post;
 
 
         public ListaPage()
@@ -46,9 +46,9 @@ namespace MenuHamburguesa.View
         {
             var content = await client.GetStringAsync(URL); //obtener datos del string
             Debug.WriteLine("Consultado" + content);
-            List<RootObject> posts = JsonConvert.DeserializeObject<List<RootObject>>(content); // deserializamos el contenido y lo guardamos en la variable posts
+            List<Personaje> posts = JsonConvert.DeserializeObject<List<Personaje>>(content); // deserializamos el contenido y lo guardamos en la variable posts
             Debug.WriteLine("Convirtiendo json" + posts);
-            _post = new ObservableCollection<RootObject>(posts); //mandamos a post en un ObservableCollection y su contenido estará en _post para llenar el modelo
+            _post = new ObservableCollection<Personaje>(posts); //mandamos a post en un ObservableCollection y su contenido estará en _post para llenar el modelo
 
             MyListView.ItemsSource = _post;
         }
