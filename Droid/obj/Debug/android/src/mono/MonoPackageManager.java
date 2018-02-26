@@ -109,6 +109,8 @@ class MonoPackageManager_Resources {
 		"MenuHamburguesa.Droid.dll",
 		"FormsViewGroup.dll",
 		"MenuHamburguesa.dll",
+		"Plugin.Connectivity.Abstractions.dll",
+		"Plugin.Connectivity.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",

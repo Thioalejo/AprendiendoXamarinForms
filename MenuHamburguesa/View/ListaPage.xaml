@@ -5,7 +5,19 @@
             <ListView x:Name="MyListView">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding Title}" TextColor="Black"/>        
+                       <ViewCell>
+                        <StackLayout BackgroundColor="Teal" Orientation="Vertical">
+                                    <StackLayout Orientation="Horizontal">
+                                        <!--<controls:CircleImage Source="http://sentir-terror.com/img/2014/02/13997125-minion_2.jpg" Aspect="Fill" WidthRequest="250" HeightRequest="250" TranslationX="25" TranslationY="50" />  -->  
+                                        <!--<StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                                            <Image Source="{Binding image}"/>
+                                        </StackLayout>-->
+                                        <Label Text="{Binding Equipo}" TextColor="Black"/>
+                                        <!--<Label Text="{Binding name}" TextColor="Black"/>-->
+                                
+                                    </StackLayout>
+                                </StackLayout>
+                       </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
            </ListView>

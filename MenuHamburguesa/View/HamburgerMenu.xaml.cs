@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using MenuHamburguesa.View;
+using Plugin.Connectivity;
 using Xamarin.Forms;
 
 namespace MenuHamburguesa
@@ -55,27 +56,46 @@ namespace MenuHamburguesa
             {
                 if (menu.MenuTitle.Equals("My Profile"))
                 {
+                    CheckConnectivity();
                     IsPresented = false;
                     //Device.OpenUri(new Uri("http://example.com")); //para abrir navegador web con url dada
                     Detail = new NavigationPage(new Feed());
                 }
                 else if (menu.MenuTitle.Equals("Messages"))
                 {
+                    CheckConnectivity();
                     IsPresented = false;
                     Detail = new NavigationPage(new HamburgerMenuPage2());
                 }
                 else if (menu.MenuTitle.Equals("Contacts"))
                 {
+                    CheckConnectivity();
+
                     IsPresented = false;
                     Detail = new NavigationPage(new ListaPage());
                 }
                 else
                 {
+                    CheckConnectivity();
                     DisplayAlert("Alerta", "En mantenimiento", "ACEPTAR");
                 }
             }
         }
 
+        private void CheckConnectivity()
+        {
+            if (CrossConnectivity.Current.IsConnected)
+            {
+                // DisplayAlert("Alerta", "Si hay Internet", "ACEPTAR");
+
+            }
+            else
+            {
+                 DisplayAlert("Alerta", "Parece que no hay internet, Revisa tu configuración", "ACEPTAR");
+              
+            }
+        
+        }
 
         public class Menu
         {

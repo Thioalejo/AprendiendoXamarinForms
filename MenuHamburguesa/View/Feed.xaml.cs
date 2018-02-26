@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Net.Http;
 using MenuHamburguesa.Models;
 using Newtonsoft.Json;
+using Plugin.Connectivity;
 using Xamarin.Forms;
 
 namespace MenuHamburguesa
@@ -21,22 +22,53 @@ namespace MenuHamburguesa
 
         }
 
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
-            var content = await client.GetStringAsync(URL); //obtener datos del string
-            List<Model_Post> posts = JsonConvert.DeserializeObject<List<Model_Post>>(content); // deserializamos el contenido y lo guardamos en la variable posts
-            _post = new ObservableCollection<Model_Post>(posts); //mandamos a post en un ObservableCollection y su contenido estará en _post para llenar el modelo
-           
-           /* foreach (var item in _post)
+            if(CheckConnectivity()!=true)
             {
-                modelo.Id= item.Id;
-                modelo.Title = item.Title;
-            }*/
+                DisplayAlert("Alerta", "Parece que no hay internet, Revisa tu configuración", "ACEPTAR");
+            }
+            else
+            {
+                ConsultarYllenarLista();
 
-            MyListView.ItemsSource = _post;
-
+            }
             base.OnAppearing();
         }
 
+
+        public async void ConsultarYllenarLista()
+        {
+            
+                var content = await client.GetStringAsync(URL); //obtener datos del string
+                List<Model_Post> posts = JsonConvert.DeserializeObject<List<Model_Post>>(content); // deserializamos el contenido y lo guardamos en la variable posts
+                _post = new ObservableCollection<Model_Post>(posts); //mandamos a post en un ObservableCollection y su contenido estará en _post para llenar el modelo
+
+                /* foreach (var item in _post)
+                 {
+                     modelo.Id= item.Id;
+                     modelo.Title = item.Title;
+                 }*/
+
+                MyListView.ItemsSource = _post;
+
+
+        }
+
+
+        private Boolean CheckConnectivity()
+        {
+            if (CrossConnectivity.Current.IsConnected)
+            {
+               // DisplayAlert("Alerta", "Si hay Internet", "ACEPTAR");
+                return true;
+            }
+            else
+            {
+               // DisplayAlert("Alerta", "Parece que no hay internet, Revisa tu configuración", "ACEPTAR");
+                return false;
+            }
+            }
+        }
     }
-}
+

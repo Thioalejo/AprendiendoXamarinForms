@@ -1,18 +1,21 @@
 ﻿<Properties StartupConfiguration="{D3B5971A-A381-4E8C-A6C8-8A87CCB120D8}|Default">
   <MonoDevelop.Ide.ItemProperties.MenuHamburguesa.Droid PreferredExecutionTarget="Android.G7T7N16C30006880" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MenuHamburguesa/View/Feed.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MenuHamburguesa/View/ListaPage.xaml.cs">
     <Files>
-      <File FileName="MenuHamburguesa/View/HamburgerMenu.xaml.cs" Line="67" Column="60" />
-      <File FileName="MenuHamburguesa/View/Feed.xaml" Line="61" Column="47" />
-      <File FileName="MenuHamburguesa/Models/Model_Post.cs" Line="11" Column="9" />
-      <File FileName="MenuHamburguesa/View/Feed.xaml.cs" Line="36" Column="15" />
-      <File FileName="MenuHamburguesa/View/ListaPage.xaml" Line="14" Column="1" />
-      <File FileName="MenuHamburguesa/View/ListaPage.xaml.cs" Line="23" Column="10" />
+      <File FileName="MenuHamburguesa/View/HamburgerMenu.xaml.cs" Line="87" Column="51" />
+      <File FileName="MenuHamburguesa/View/Feed.xaml" Line="73" Column="114" />
+      <File FileName="MenuHamburguesa/View/Feed.xaml.cs" Line="25" Column="18" />
+      <File FileName="MenuHamburguesa/Models/Model_Post.cs" Line="9" Column="9" />
+      <File FileName="MenuHamburguesa/View/ListaPage.xaml" Line="13" Column="74" NotebookId="1" />
+      <File FileName="MenuHamburguesa/Models/Personajes.cs" Line="6" Column="18" NotebookId="1" />
+      <File FileName="MenuHamburguesa/View/ListaPage.xaml.cs" Line="51" Column="56" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/MenuHamburguesa/View/ListaPage.xaml" relfile="MenuHamburguesa/View/ListaPage.xaml" line="12" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

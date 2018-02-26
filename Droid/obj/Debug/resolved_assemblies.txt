@@ -4,6 +4,8 @@
 /Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/Droid/obj/Debug/android/assets/MenuHamburguesa.dll
 /Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/Droid/obj/Debug/android/assets/Mono.Android.dll
 /Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/Droid/obj/Debug/android/assets/mscorlib.dll
+/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/Droid/obj/Debug/android/assets/Plugin.Connectivity.Abstractions.dll
+/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/Droid/obj/Debug/android/assets/Plugin.Connectivity.dll
 /Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/Droid/obj/Debug/android/assets/System.Core.dll
 /Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/Droid/obj/Debug/android/assets/System.dll
 /Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/Droid/obj/Debug/android/assets/System.Runtime.dll

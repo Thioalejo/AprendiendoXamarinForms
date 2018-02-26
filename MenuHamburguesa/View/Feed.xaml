@@ -70,7 +70,7 @@
                                     <StackLayout Orientation="Horizontal">
                                         <!--<controls:CircleImage Source="http://sentir-terror.com/img/2014/02/13997125-minion_2.jpg" Aspect="Fill" WidthRequest="250" HeightRequest="250" TranslationX="25" TranslationY="50" />  -->  
                            
-                                        <Image Source="http://sentir-terror.com/img/2014/02/13997125-minion_2.jpg" Margin="4" />
+                                        <Image Source="http://sentir-terror.com/img/2014/02/13997125-minion_2.jpg" Margin="4"/>
                                         <Label Text="{Binding Id}" TextColor="Black"/>
                                         <Label Text="{Binding Title}" TextColor="Black"/>
                                     </StackLayout>
