@@ -62,7 +62,7 @@
         <StackLayout>
                 
                  
-            <ListView x:Name="MyListView">
+            <ListView x:Name="MyListView" RowHeight="100" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                        <ViewCell>

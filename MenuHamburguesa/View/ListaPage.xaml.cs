@@ -15,7 +15,7 @@ namespace MenuHamburguesa.View
     public partial class ListaPage : ContentPage
     {
         HttpClient client = new HttpClient();
-        private const string URL = "http://dl.dropboxusercontent.com/s/sjhj5zuxfu87vz5/Archivo.json?dl=0";
+        private const string URL = "https://dl.dropbox.com/s/i8idhfiry89somx/posts.json?dl=0";
        
         private ObservableCollection<Personaje> _post;
 

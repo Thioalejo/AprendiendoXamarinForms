@@ -68,3 +68,4 @@
 /Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/MenuHamburguesa/obj/Debug/MenuHamburguesa.View.ListaPage.xaml.g.cs
 /Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/MenuHamburguesa/obj/Debug/MenuHamburguesa.dll
 /Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/MenuHamburguesa/obj/Debug/MenuHamburguesa.pdb
+/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/MenuHamburguesa/obj/Debug/MenuHamburguesa.csprojResolveAssemblyReference.cache
