@@ -6,9 +6,9 @@ namespace MenuHamburguesa.Models
 {
     public class Personaje
     {
-        public string Equipo { get; set; }
-        public string name { get; set; }
-        public string Especialidad { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public string Celular { get; set; }
         public string image { get; set; }
     }
 }

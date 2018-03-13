@@ -9,6 +9,8 @@ using System.Diagnostics;
 using Xamarin.Forms;
 using System.Threading.Tasks;
 using Plugin.Connectivity;
+using Xamarin.Forms.PlatformConfiguration;
+using Xamarin.Forms.Internals;
 
 namespace MenuHamburguesa.View
 {
@@ -50,7 +52,31 @@ namespace MenuHamburguesa.View
             Debug.WriteLine("Convirtiendo json" + posts);
             _post = new ObservableCollection<Personaje>(posts); //mandamos a post en un ObservableCollection y su contenido estará en _post para llenar el modelo
 
-            MyListView.ItemsSource = _post;
+            foreach (var item in _post)
+            {
+                
+                if (item.image == "")
+                {
+                     
+                    if(Device.iOS == TargetPlatform.iOS.ToString())
+                    {
+                        item.image = "/Users/Johnny/Projects/AprendiendoXamarinForms/MenuHamburguesa/MenuHamburguesa/Imagenes/businessman2.png";
+                        MyListView.ItemsSource = _post;
+                    }
+                    else
+                    {
+                        item.image = "businessman2.png";
+                        MyListView.ItemsSource = _post;
+                    }
+
+                }
+                else
+                {
+                    MyListView.ItemsSource = _post;
+                }
+            }
+           
+
         }
 
         private Boolean CheckConnectivity()
